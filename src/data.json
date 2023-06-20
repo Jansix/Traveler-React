@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "imagePath": "Banner1.png",
+    "description": "Description for Image 1",
+    "title": "Image 1"
+  },
+  {
+    "id": 2,
+    "imagePath": "Banner1.png",
+    "description": "Description for Image 1",
+    "title": "Image 1"
+  },
+  {
+    "id": 3,
+    "imagePath": "Banner1.png",
+    "description": "Description for Image 1",
+    "title": "Image 1"
+  },
+  {
+    "id": 4,
+    "imagePath": "Banner1.png",
+    "description": "Description for Image 1",
+    "title": "Image 1"
+  },
+  {
+    "id": 5,
+    "imagePath": "Banner1.png",
+    "description": "Description for Image 1",
+    "title": "Image 1"
+  },
+  {
+    "id": 6,
+    "imagePath": "Banner1.png",
+    "description": "Description for Image 2",
+    "title": "Image 2"
+  }
+]
