@@ -11,3 +11,32 @@ body {
 .bg-image {
   background-image: url("../src//Images//bgimg.svg");
 }
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    105deg,
+    rgba(222, 165, 165, 0.9) 45%,
+    transparent 40%
+  );
+  z-index: 1;
+}
+
+@media screen and (max-width: 639px) {
+  .image-container::before {
+    content: none;
+  }
+
+  .xlTitle {
+    content: none;
+  }
+}

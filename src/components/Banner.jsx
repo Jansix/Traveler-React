@@ -35,7 +35,7 @@ function Banner() {
           </h2>
           <h2 data-aos="fade-up" data-aos-duration="2000">
             <span className="border-b-[1px] border-black">
-              您旅途中最堅實的後盾
+              您旅途中堅實的後盾
             </span>
           </h2>
         </div>

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Logo from "../Images/LOGO.png";
-import { FaArrowUp } from "react-icons/fa";
+import React, { useState, useEffect } from 'react';
+import Logo from '../Images/LOGO.png';
+import { FaArrowUp } from 'react-icons/fa';
 
 function Footer() {
   const [showButton, setShowButton] = useState(false);
@@ -13,17 +13,17 @@ function Footer() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
-    <div className="bg-image h-[300px] w-full bg-cover relative ">
+    <div className="bg-image h-[350px] w-full bg-cover relative ">
       <div className="w-full flex justify-between items-center px-12 absolute bottom-4  flex-wrap">
         <div className="">
           <p>© Traveler All Rights Reserved.</p>
