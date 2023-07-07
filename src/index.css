@@ -27,7 +27,14 @@ body {
   z-index: 1;
 }
 
+#CONCEPT {
+  scroll-margin-top: 150px;
+}
+
 @media screen and (max-width: 639px) {
+  #CONCEPT {
+    scroll-margin-top: 50px;
+  }
   .image-container::before {
     content: none;
   }

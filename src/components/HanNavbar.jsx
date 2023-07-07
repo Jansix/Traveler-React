@@ -26,7 +26,7 @@ function HanNavbar() {
                 <a href="/pastProjects">過往案例</a>
               </li>
               <li className="text-center">
-                <a href="/services">服務內容</a>
+                <a href="/#CONCEPT">服務內容</a>
               </li>
               <li className="text-center">
                 <a href="/connectUs">聯絡我們</a>

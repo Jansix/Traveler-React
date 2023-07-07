@@ -15,7 +15,7 @@ function Navbar() {
               <a href="/pastProjects">過往案例</a>
             </li>
             <li className="hover:text-amber-700 hover:border-b-4">
-              <a href="/">服務內容</a>
+              <a href="/#CONCEPT">服務內容</a>
             </li>
             <li className="hover:text-amber-700 hover:border-b-4">
               <a href="/connectUs">聯絡我們</a>

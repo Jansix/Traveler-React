@@ -46,7 +46,9 @@ function Main() {
         <img className="w-full lg:w-[50%] " src={img2} alt="img2" />
 
         <div className="lg:max-w-[612px] aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1500">
-          <p className="mb-6 text-lg text-gray-500 ">CONCEPT</p>
+          <p className="mb-6 text-lg text-gray-500 " id="CONCEPT">
+            CONCEPT
+          </p>
           <div className="mb-6 text-4xl ">
             <h3 className="mb-4 font-bold text-TT-color">
               {' '}
@@ -90,7 +92,7 @@ function Main() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
           <div className="shadow-lg rounded-md ring-gray-300 border-[1px] border-amber-800 hover:border-2  ">
-            <a href="#">
+            <a href="/pastProjects">
               <div className="relative overflow-hidden">
                 <img src={img4} alt="img4" className="object-cover w-full h-full transition-transform duration-300 hover:scale-110" />
               </div>
@@ -99,7 +101,7 @@ function Main() {
           </div>
 
           <div className="shadow-lg rounded-md ring-gray-300 border-[1px] border-amber-800  hover:border-2 ">
-            <a href="#">
+            <a href="/pastProjects">
               <div className="relative overflow-hidden">
                 <img src={img5} alt="img5" className="object-cover w-full h-full transition-transform duration-300 hover:scale-110" />
               </div>
@@ -107,7 +109,7 @@ function Main() {
             <p className="text-center p-8 text-2xl font-semibold">非洲原野生態之旅</p>
           </div>
           <div className="shadow-lg rounded-md ring-gray-300 border-[1px] border-amber-800  hover:border-2">
-            <a href="#">
+            <a href="/pastProjects">
               <div className="relative overflow-hidden">
                 <img src={img6} alt="img6" className="object-cover w-full h-full transition-transform duration-300 hover:scale-110" />
               </div>
